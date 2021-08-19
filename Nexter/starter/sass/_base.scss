@@ -19,7 +19,6 @@ $font-display: "Josefin Sans", sans-serif;
 *::before {
   margin: 0;
   padding: 0;
-  font-size: 300;
   box-sizing: inherit;
 }
 
@@ -33,11 +32,9 @@ body {
   color: $color-grey-dark-2;
   font-weight: 300;
   line-height: 1.6;
-  font-size: inherit;
 }
 
 .container {
-  font-size: inherit;
   display: grid;
   grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
   grid-template-columns:
